@@ -5,6 +5,14 @@ This repository contains the 3D model of a modified Turtlebot Burger used by the
 ## Requirements
 - Solidworks 2021
 
+## Gettting started
+
+This repository contains submodule of 3D model parts. Right after cloning the project and prior to opening any assembly, run the following command:
+
+```
+git submodule update --init --recursive
+```
+
 ### Repository structure
 
 ------
@@ -20,7 +28,7 @@ Turtlebot-Mechanical-Update
 ├── external
 ├── internal
 ├── TurtleBot
-├── pioneer2DX.SLDASM
+├── Turtlebot_modified.SLDASM
 └── README.md
 ```
 
