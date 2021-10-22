@@ -5,7 +5,7 @@ This repository contains the 3D model of a modified Turtlebot Burger used by the
 ## Requirements
 - Solidworks 2021
 
-## Gettting started
+## Getting started
 
 This repository contains submodule of 3D model parts. Right after cloning the project and prior to opening any assembly, run the following command:
 
@@ -42,14 +42,19 @@ This folder contains all the components of the Turtlebot and it contains the Tur
 
 ### external
 
-Contains the 3D models of the external components and their supports.
+Contains the 3D models of the external components and their supports. Significant assemblies and parts are described below:
+
+- **qr_plate.SLDPRT**: Plate on which a QR code is glued on. Can be directly screwed on the Turtlebot top layer.
+- **qr_plate_support.SLDPRT**: Supports of the qr_plate. The part has two [configurations](http://help.solidworks.com/2021/English/SolidWorks/sldworks/c_Configurations_Overview.htm), one for the port side and one for the starboard side.
+- [HiveBoard-BeeBoard-Mechanical](https://github.com/SwarmUS/HiveBoard-BeeBoard-Mechanical): Submodule that contains the 3D models of the BeeBoard and the HiveBoard and their cases. 
 
 
 ### internal
 
-Contains the 3D models of the internal components added to the Turtlebot.
+Contains the 3D models of the internal components added to the Turtlebot. Significant assemblies and parts are described below:
 
 - **REG_313080006.SLDPRT**: 313080006 5V regulator for powering the Hiveboard and its BeeBoards.
+- **assembled_interloc_system.SLDASM**: Assembly of the HiveBoard, 3x BeeBoards, the voltage regulator (REG_313080006), a plate with the bolt pattern of all the components and some standoff for the assembly with the Turtlebot. The BeeBoards are placed in a specific pattern for interlocalisation.
 
 ### Outputs
 
