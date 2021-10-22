@@ -34,6 +34,8 @@ Turtlebot-Mechanical-Update
 
 #### Turtlebot_modified.SLDASM
 
+![](outputs/rendered_Turtlebot.png)
+
 Main assembly of the modified Turtlebot. It's composed of a Turtlebot Burger with additionnal components that are external to the robot (*external*) and of components that are internal to the robot (*internal*). These components wrre mostly added to support mechanically and electrically the HiveBoard and its BeeBoards.
 
 ### Turtlebot
